@@ -2,6 +2,15 @@
 
 REST API untuk manajemen tugas (To-Do List) dibangun dengan Go, PostgreSQL, dan Redis.
 
+## API Documentation (Swagger)
+
+Proyek ini menyediakan dokumentasi interaktif untuk seluruh API endpoint menggunakan Swagger UI.
+Setelah server berhasil dijalankan, kamu dapat mengakses dokumentasi tersebut melalui browser pada alamat berikut:
+
+- **Swagger UI:** [http://localhost:8082/docs/index.html](http://localhost:8082/docs/index.html)
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
@@ -98,15 +107,6 @@ Server berjalan di: `http://localhost:8082`
 ```bash
 curl http://localhost:8082/health
 ```
-
----
-
-## API Documentation (Swagger)
-
-Proyek ini menyediakan dokumentasi interaktif untuk seluruh API endpoint menggunakan Swagger UI.
-Setelah server berhasil dijalankan, kamu dapat mengakses dokumentasi tersebut melalui browser pada alamat berikut:
-
-- **Swagger UI:** [http://localhost:8082/docs/index.html](http://localhost:8082/docs/index.html)
 
 ---
 
